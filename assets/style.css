@@ -54,14 +54,54 @@ p
 }
 .title
 {
-    padding:1.5%;
-    font-size:175%;
+    
+    padding:2%;
+    font-size:225%;
+    font-style:bold;
 }
 article p 
 {
-    padding-left:5%;
+    padding-left:15%;
+    padding-right:5%;
+    font-size:175%;
+    line-height:1.5;
 }
 a
 {
     color:#E7B100;
+}
+section
+{
+    display:inline;
+}
+.card
+{
+    display:flex;
+    display:inline;
+    height: 600px;
+    margin: 8%;
+    filter: blur(4px);
+}
+
+.card:hover
+{
+    filter:blur(0);
+}
+#resize
+{
+    height:600px;
+    margin:6%;
+    margin-bottom:8%;
+}
+footer
+{
+    display:flex;
+    justify-content:center;
+    color:#E7B100;
+    font-size: 150%
+}
+footer h3
+{
+    margin:5%;
+    display:inline;
 }
